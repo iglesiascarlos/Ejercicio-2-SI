@@ -12,18 +12,28 @@ En esta practica lo que haremos será documentar y realizar cada uno de los cuat
 1.- Crea la siguiente estructura de carpetas:
 ```bash
 ── PracticaSI
-   ├── ACCESS
-   ├── EXCEL
-   │   ├── INFO
-   │   └── TABLAS
-   ├── PROG
-   │   ├── BASIC
-   │   ├── FORTRAN
-   │   └── PASCAL
-   ├── VARIOS
-   └── WORD
-       ├── NOTAS
-       └── TEXTOS
+     ├── APLI
+     │   ├── WORD
+     │   │   ├── NOTAS
+     │   │   └── TEXTOS
+     │   ├── ACCESS
+     │   └── EXCEL
+     │       ├── INFO
+     │       └── TABLAS
+     ├── PROG
+     │   ├── BASIC
+     │   ├── FORTRAN
+     │   └── PASCAL
+     └── VARIOS
+```
+- Para crear la siguiente estructura de carpetas los comandos que utilizaremos serán los siguientes:
+- ```bash
+Creamos la carpeta PracticaSI para tener la estructura de carpetas un poco mas controlada en nuestro sistema:
+  mkdir PracticaSI
+
+A continuacion hacemos lo siguiente:
+  mkdir ACCES
+  mkdir 
 ```
 2.- Sitúate en la carpeta TABLAS
 
