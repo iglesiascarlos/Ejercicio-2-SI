@@ -10,19 +10,21 @@ En esta practica lo que haremos será documentar y realizar cada uno de los cuat
 
 ## Ejercicio 1<a name="id1"></a>
 1.- Crea la siguiente estructura de carpetas:
-├── PracticaSI
-│   ├── ACCESS
-│   ├── EXCEL
-│   │   ├── INFO
-│   │   └── TABLAS
-│   ├── PROG
-│   │   ├── BASIC
-│   │   ├── FORTRAN
-│   │   └── PASCAL
-│   ├── VARIOS
-│   └── WORD
-│       ├── NOTAS
-│       └── TEXTOS
+```bash
+── PracticaSI
+   ├── ACCESS
+   ├── EXCEL
+   │   ├── INFO
+   │   └── TABLAS
+   ├── PROG
+   │   ├── BASIC
+   │   ├── FORTRAN
+   │   └── PASCAL
+   ├── VARIOS
+   └── WORD
+       ├── NOTAS
+       └── TEXTOS
+```
 2.- Sitúate en la carpeta TABLAS
 
 3.- Vuelve a la carpeta raíz
