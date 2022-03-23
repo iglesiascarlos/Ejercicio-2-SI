@@ -5,7 +5,7 @@ En esta practica lo que haremos será documentar y realizar cada uno de los cuat
 1. [Ejercicio 1](#id1)
 2. [Ejercicio 2](#id2)
 3. [Ejercicio 3](#id3)
-4. [Ejercicio 4](#id2)
+4. [Ejercicio 4](#id4)
 
 
 ## Ejercicio 1<a name="id1"></a>
