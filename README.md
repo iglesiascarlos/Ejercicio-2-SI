@@ -27,13 +27,37 @@ En esta practica lo que haremos será documentar y realizar cada uno de los cuat
      └── VARIOS
 ```
 - Para crear la siguiente estructura de carpetas los comandos que utilizaremos serán los siguientes:
-- ```bash
+```bash
 Creamos la carpeta PracticaSI para tener la estructura de carpetas un poco mas controlada en nuestro sistema:
-  mkdir PracticaSI
+ > mkdir PracticaSI
 
 A continuacion hacemos lo siguiente:
-  mkdir ACCES
-  mkdir 
+ > mkdir APLI
+ > mkdir PROG
+ > mkdir VARIOS
+ 
+ > cd APLI (Nos movemos al directorio APLI)
+ > mkdir WORD
+ > mkdir ACCES
+ > mkdir EXCEL
+
+ > cd WORD (Nos movemos al directorio WORD)
+ > mkdir NOTAS
+ > mkdir TEXTOS
+
+ > cd .. (Para volver al directorio APLI)
+ > cd EXCEL (Para entrar al directorio excel)
+ > mkdir INFO
+ > mkdir TABLAS
+ 
+ > cd (Para volver al inicio)
+ > cd PracticaSI (Para entrar de nuevo en la carpeta)
+ > cd PROG (Para entrar en PROG)
+ > mkdir BASEIC
+ > mkdir FORTRAN
+ > mkdir PASCAL
+ 
+ ! Con esto ya tenemos la estructura de directorios creada la cual podemos visualizar con el comando `tree`
 ```
 2.- Sitúate en la carpeta TABLAS
 
