@@ -53,33 +53,67 @@ A continuacion hacemos lo siguiente:
  > cd (Para volver al inicio)
  > cd PracticaSI (Para entrar de nuevo en la carpeta)
  > cd PROG (Para entrar en PROG)
- > mkdir BASEIC
+ > mkdir BASIC
  > mkdir FORTRAN
  > mkdir PASCAL
  
  ! Con esto ya tenemos la estructura de directorios creada la cual podemos visualizar con el comando `tree`
 ```
+
 2.- Sitúate en la carpeta TABLAS
+```BASH
+ > cd PracticaSI/APLI/EXCEL/TABLAS
+```
 
 3.- Vuelve a la carpeta raíz
+```BASH
+ > cd
+```
 
 4.- Muestra el contenido de la carpeta PROG
+```BASH
+ > ls PracticaSI/PROG/
+```
 
 5.- Borra la carpeta PASCAL
+```BASH
+ > rmdir PracticaSI/PROG/PASCAL
+```
 
 6.- Sitúate en la carpeta VARIOS y desde allí crea una nueva carpeta dentro de WORD llamado PRACT
+```BASH
+ > mkdir ../APLI/WORD/PRACT
+```
 
 7.- Sitúate en PRACT y desde allí muestra el contenido de la carpeta EXCEL
+```BASH
+ > ls ../../EXCEL/
+```
 
 8.- Desde TABLAS muestra el listado de archivos y carpetas de la carpeta raíz
+```BASH
+ > ls ../../../..
+```
 
 9.- Sitúate en la carpeta APLI y desde allí crea una subcarpeta llamada AGENDA dentro de VARIOS
+```BASH
+ > mkdir ../VARIOS/AGENDA
+```
 
 10.- Borra la carpeta EXCEL
+```BASH
+ > rm -r PracticaSI/APLI/EXCEL
+```
 
 11.- Desde la carpeta raíz, crea en ella una subcarpeta llamada NUEVO
+```BASH
+ > mkdir PracticaSI/NUEVO
+```
 
 12.- Desde PRACT muestra el contenido de WORD
+```BASH
+ > ls ..
+```
 
 ## Ejercicio 2<a name="id2"></a>
 1.- Utilizando el editor de textos de MS-DOS, crea un archivo de texto denominado EJER.TXT, con el siguiente contenido, y almacénalo dentro de la carpeta TEXTOS (dentro de la estructura del ejercicio anterior): “La información dentro de los discos se almacena en forma de archivos. Un archivo o fichero es un conjunto de datos que MS-DOS almacena en un disco y cuyo control interno es realizado por el sistema operativo, aunque desde el punto de vista lógico el control es del usuario”
